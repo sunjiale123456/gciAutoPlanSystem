@@ -40,7 +40,7 @@ public class dbUtils {
             connection = DriverManager.getConnection(url, properties);
 
             if (!connection.isClosed()) {
-                System.out.println("Open DB Connection success");
+                System.out.println("Open DB Connection success ! ");
             }
         }catch (Exception e) {
             e.printStackTrace();
